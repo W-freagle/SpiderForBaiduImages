@@ -1,6 +1,6 @@
 import os
 
-POOLNUM = 4
+POOLNUM = 6
 
 MAX = 1000
 
