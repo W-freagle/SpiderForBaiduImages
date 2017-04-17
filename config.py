@@ -2,7 +2,7 @@ import os
 
 POOLNUM = 4
 
-MAX = 100
+MAX = 1000
 
 BASE = 'res'
 
