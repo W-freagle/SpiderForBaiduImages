@@ -55,18 +55,16 @@ URL = r"http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&ct=2013265
 #     '自拍': SELF_SNAPSHOT
 #     }
 MAN = os.path.join(BASE, 'man')
+WOMAN = os.path.join(BASE, 'woman')
 WOMAN_ALL = os.path.join(BASE, 'woman-all')
 MAN_ALL = os.path.join(BASE, 'man_all')
-PEN_TEXT = os.path.join(BASE, 'pen')
-SOFT_TEXT = os.path.join(BASE, 'soft')
-PHONE_COM = os.path.join(BASE, 'phone')
+
 PIC_TYPES = {
     '男人 自拍': MAN,
+    '女人 自拍': WOMAN,
     '全身照片 女': WOMAN_ALL,
     '全身照片 男': MAN_ALL,
-    '硬笔书法': PEN_TEXT,
-    '书法': SOFT_TEXT,
-    '手机 电脑':PHONE_COM,
+
 }
 
 STR_TABLE = {
