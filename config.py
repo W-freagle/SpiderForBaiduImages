@@ -1,8 +1,10 @@
 import os
 
 POOLNUM = 6
+#爬图片的种类
 
-MAX = 1000
+MAX = 100000
+#爬图片的数量
 
 BASE = 'res'
 
@@ -54,6 +56,8 @@ URL = r"http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&ct=2013265
 #     '文本 文字': TEXT,
 #     '自拍': SELF_SNAPSHOT
 #     }
+
+#这里填写爬图片关键词
 MAN = os.path.join(BASE, 'man')
 WOMAN = os.path.join(BASE, 'woman')
 WOMAN_ALL = os.path.join(BASE, 'woman-all')
