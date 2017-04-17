@@ -58,13 +58,16 @@ MAN = os.path.join(BASE, 'man')
 WOMAN = os.path.join(BASE, 'woman')
 WOMAN_ALL = os.path.join(BASE, 'woman-all')
 MAN_ALL = os.path.join(BASE, 'man_all')
+FACE_LAUGH = os.path.join(BASE, 'face_laugh')
+FACE_CRY = os.path.join(BASE, 'face_cry')
 
 PIC_TYPES = {
     '男人 自拍': MAN,
     '女人 自拍': WOMAN,
     '全身照片 女': WOMAN_ALL,
     '全身照片 男': MAN_ALL,
-
+    '人脸 笑': FACE_LAUGH,
+    '人脸 哭': FACE_CRY,
 }
 
 STR_TABLE = {
